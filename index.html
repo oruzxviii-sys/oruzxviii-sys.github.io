@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marquez matias— Portfolio | Estudiante de Tecnicatura en Programación</title>
+  <meta name="description" content="Portfolio de Tu Nombre, estudiante de Tecnicatura en Programación de la Escuela Técnica N°5 Manuel Sadosky.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="contenedor nav-inner">
+      <a href="#inicio" class="logo">Matias Marquez<span>.</span></a>
+      <nav class="nav-links" id="menu" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+        <a href="inspiracion.html">Inspiración</a>
+      </nav>
+      <div class="nav-acciones">
+        <button class="btn-icono" id="tema" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro">🌙</button>
+        <button class="btn-icono hamburguesa" id="hamburguesa" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="inicio">
+      <div class="contenedor hero-grid">
+        <div class="hero-texto">
+          <span class="hero-kicker"><i></i>Estudiante de Tecnicatura en Programación · 6° año</span>
+          <h1>Hola, soy <em>Matias Marquez.</em></h1>
+          <p class="frase">Dinámico, autodidacta y con ganas de convertir ideas en código, circuitos y redes que funcionen de verdad.</p>
+          <div class="hero-botones">
+            <a href="#proyectos" class="btn btn-primario">Ver mis proyectos →</a>
+            <a href="#contacto" class="btn btn-borde">Escribime</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar">
+            <img src="imagenes/WhatsApp Image 2026-11-19 at 9.44.43 AM.jpeg" alt="">
+          </div>
+          <div class="sello" aria-hidden="true"><div><span>6°</span>año<br>E.E.S.T. N°5</div></div>
+        </div>
+      </div>
+    </section>
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta-track">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Arduino</span><span>ESP32</span><span>MySQL</span><span>C# / C++</span><span>Packet Tracer</span>
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Arduino</span><span>ESP32</span><span>MySQL</span><span>C# / C++</span><span>Packet Tracer</span>
+      </div>
+    </div>
+    <section id="sobre-mi">
+      <div class="contenedor sobre-grid">
+        <div class="sobre-texto reveal">
+          <span class="etiqueta">Sobre mí</span>
+          <h2 class="titulo-seccion">Curiosidad primero, <em>código después.</em></h2>
+          <p>Soy estudiante del 6° año de la Escuela Técnica N°5 «Manuel Sadosky», donde me formo en programación y tecnología. Me defino como una persona dinámica: me gusta estar en movimiento, probar cosas nuevas y no quedarme esperando a que alguien me explique todo.</p>
+          <p>Además soy autodidacta. Cuando algo me interesa, busco documentación, miro tutoriales, rompo el código, lo arreglo y vuelvo a intentarlo. Esa costumbre me llevó a moverme con comodidad entre el desarrollo web, la programación de escritorio con Python y Tkinter, las bases de datos con MySQL y la electrónica con Arduino y ESP32.</p>
+          <p>Lo que más me atrae de la programación es que une todo: lo que se ve en pantalla, lo que pasa detrás y lo que sucede en el mundo físico cuando un sensor responde o una red conecta dos equipos. Ahora estoy cerrando la secundaria técnica y buscando mis primeras oportunidades para seguir aprendiendo en equipos reales.</p>
+        </div>
+        <div class="datos">
+          <div class="dato reveal"><strong>6°</strong><span>año de formación técnica</span></div>
+          <div class="dato reveal"><strong>10+</strong><span>tecnologías y herramientas que uso</span></div>
+          <div class="dato reveal"><strong>3</strong><span>proyectos destacados en este portfolio</span></div>
+          <div class="dato reveal"><strong>100%</strong><span>ganas de seguir aprendiendo por mi cuenta</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos">
+      <div class="contenedor">
+        <span class="etiqueta">Proyectos</span>
+        <h2 class="titulo-seccion">Lo que construí, <em>no solo lo que sé.</em></h2>
+        <p class="bajada">Mis trabajos más recientes en la materia, ordenados del más nuevo al más antiguo. Reemplazá los enlaces por los de tu GitHub.</p>
+
+        <div class="proyectos-grid">
+
+          <article class="proyecto-card reveal">
+            <div class="captura"><div class="ventana">
+             <img src="imagenes/Screenshot_2.png" alt="">
+            </div></div>
+            <div class="proyecto-cuerpo">
+              <span class="proyecto-meta">2026 · Actividad final</span>
+              <h3>Tienda dinámica con carrusel</h3>
+              <p>Tienda online de joyeria donde los productos se muestran en un carrusel hecho con JavaScript. Permite recorrer el catálogo de forma fluida y cambia dinámicamente lo que ve el usuario sin recargar la página.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="proyecto-link" href="https://comforting-medovik-0a19b4.netlify.app" target="_blank" rel="noopener">Ver →</a>
+            </div>
+          </article>
+
+          <article class="proyecto-card reveal">
+            <div class="captura"><div class="ventana">
+              <img src="imagenes/Screenshot_32.png" alt="Captura calculadora">
+            </div></div>
+            <div class="proyecto-cuerpo">
+              <span class="proyecto-meta">2026 · Materia</span>
+              <h3>Calculadora</h3>
+              <p>Calculadora funcional con las operaciones básicas, programada con JavaScript, actualiza la pantalla en tiempo real.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="proyecto-link" href="https://incredible-alfajores-a43a6d.netlify.app" target="_blank" rel="noopener">Ver →</a>
+            </div>
+          </article>
+
+          <article class="proyecto-card reveal">
+            <div class="captura"><div class="ventana">
+              <img src="imagenes/Screenshot_1.png" alt="Captura tienda">
+            </div></div>
+            <div class="proyecto-cuerpo">
+              <span class="proyecto-meta">2026 · Actividad 1</span>
+              <h3>E-commerce</h3>
+              <p>Mi tienda web ficticia basada en una tienda de piercings, maquetada solo con HTML y CSS. Trabaja la estructura semántica, las grillas de productos y un diseño ordenado para que se vea bien en distintos tamaños de pantalla.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+              <a class="proyecto-link" href="https://superb-sundae-9ef3c9.netlify.app" target="_blank" rel="noopener">Ver →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <div class="contenedor">
+        <span class="etiqueta">Habilidades</span>
+        <h2 class="titulo-seccion">Mi caja de <em>herramientas.</em></h2>
+        <p class="bajada">Del navegador al microcontrolador: lo que uso para resolver problemas, agrupado por área.</p>
+
+        <div class="skills-grid">
+          <div class="skill-grupo reveal">
+            <span class="num">01</span><h3>Desarrollo web</h3>
+            <ul class="skill-lista"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </div>
+          <div class="skill-grupo reveal">
+            <span class="num">02</span><h3>Programación y datos</h3>
+            <ul class="skill-lista"><li>Python</li><li>Tkinter</li><li>C#</li><li>C++</li><li>MySQL</li></ul>
+          </div>
+          <div class="skill-grupo reveal">
+            <span class="num">03</span><h3>Electrónica e IoT</h3>
+            <ul class="skill-lista"><li>Arduino</li><li>ESP32</li></ul>
+          </div>
+          <div class="skill-grupo reveal">
+            <span class="num">04</span><h3>Redes</h3>
+            <ul class="skill-lista"><li>Packet Tracer</li><li>Subnetting</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="contenedor contacto-grid">
+        <div class="contacto-info reveal">
+          <span class="etiqueta">Contacto</span>
+          <h2 class="titulo-seccion">Hablemos de <em>tu idea.</em></h2>
+          <p>¿Tenés un proyecto, una oportunidad o simplemente querés charlar de tecnología? Escribime y te respondo a la brevedad.</p>
+          <ul class="contacto-lista">
+            <li><span class="ic">✉</span> oruzxviii@gmail.com.com</li>
+            <li><span class="ic">⌂</span> Escuela Técnica N°5 «Manuel Sadosky»</li>
+            <li><span class="ic">★</span> <a href="https://github.com/oruzxviii-sys" target="_blank" rel="noopener">github.com/oruzxviii-sys</a></li>
+          </ul>
+        </div>
+        <form class="formulario reveal" id="formulario" action="https://formspree.io/f/xzervyqe" method="POST" novalidate>
+          <label>Nombre
+            <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            <small class="error" id="error-nombre"></small>
+          </label>
+          <label>Email
+            <input type="email" name="email" id="email" autocomplete="email" required>
+            <small class="error" id="error-email"></small>
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            <small class="error" id="error-mensaje"></small>
+          </label>
+          <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+          <p class="estado" id="estado" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor footer-inner">
+      <span>© <span id="anio">2026</span> Matias Marquez · Hecho con HTML, CSS y JavaScript</span>
+      <a href="inspiracion.html">¿En qué me inspiré?</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
